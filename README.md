@@ -38,10 +38,10 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-## Getting Started
+# Getting Started
 ```bash
 python manage.py runserver
 ```
 Then open http://127.0.0.1:8000/api/requests/ in a browser or Postman.
 
-Note: I'll be updating these instructions later once I get this dockerized in the final release, doing so might even make the installation process even easier since you can have the Docker installation install Django too. 
+Note: I'll be updating these instructions later once I get this dockerized in the final release, doing so might even make the installation process even easier since you can have the Docker installation install Django too. I already have some docker files here but still not yet ready for that stage.
