@@ -16,7 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rules.views import FirewallRequestViewSet
+
+request_list = FirewallRequestViewSet.as_view({'get': 'list', 'post': 'create'})
+request_detail = FirewallRequestViewSet.as_view({'get': 'retrieve', 'put': 'update', 'delete': 'destroy'})
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/requests/', request_list, name='request-list'),
+    path('api/requests/<int:pk>/', request_detail, name='request-detail'),
 ]
