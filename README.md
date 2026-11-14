@@ -16,4 +16,32 @@ This application is based on Django, and I have used the dogapi lab as a guide f
 - Rejected
 
 # Installation & Getting Started
+# Prerequisites:
+- [Git / Github for Desktop](https://github.com/apps/desktop)
+- [Python 3](https://www.python.org/downloads/)
 
+# Installation:
+
+1. Clone the repository:
+
+Once the GitHub Desktop app has been installed, launch it then go to:
+File >> Clone repository... >> URL >> https://github.com/Lord-Tiger/Firewall-Rule-Ledger.git (As the URL) >> Choose a Local path on your machine >> Clone
+```bash
+cd <The path where you cloned the repo to>
+```
+2. Install Django and the other dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Create the database tables:
+```bash
+python manage.py migrate
+```
+
+## Getting Started
+```bash
+python manage.py runserver
+```
+Then open http://127.0.0.1:8000/api/requests/ in a browser or Postman.
+
+Note: I'll be updating these instructions later once I get this dockerized in the final release, doing so might even make the installation process even easier since you can have the Docker installation install Django too. 
