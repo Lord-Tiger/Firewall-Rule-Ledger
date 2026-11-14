@@ -52,3 +52,4 @@ Helped me in changing text format to md format since I wrote the text for the in
 
 # Citation(s):
 https://pydevtools.com/handbook/reference/requirements/ (For the requirements.txt use)
+https://docs.djangoproject.com/en/6.1/topics/auth/default/ (To understand the auhtentication workflows)
