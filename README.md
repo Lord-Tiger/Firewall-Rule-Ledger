@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ```
 3. Create the database tables:
 ```bash
+python manage.py makemigrations fw_rules
 python manage.py migrate
 ```
 
