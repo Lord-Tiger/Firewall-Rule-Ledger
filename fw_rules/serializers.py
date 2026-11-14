@@ -1,10 +1,5 @@
 from rest_framework import serializers
 from .models import FirewallRequest
-
-#class DogSerializer(serializers.ModelSerializer):
-#    class Meta:
-#        model = Dog
-#        fields = '__all__'
         
 class FirewallRequestSerializer(serializers.ModelSerializer):
     class Meta:
