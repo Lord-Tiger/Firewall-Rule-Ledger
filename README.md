@@ -14,3 +14,6 @@ This application is based on Django, and I have used the dogapi lab as a guide f
 - Requester Action Required
 - Approved
 - Rejected
+
+# Installation & Getting Started
+
