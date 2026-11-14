@@ -44,10 +44,11 @@ python manage.py runserver
 ```
 Then open http://127.0.0.1:8000/api/requests/ in a browser or Postman.
 
-Note: I'll be updating these instructions later once I get this dockerized in the final release, doing so might even make the installation process even easier since you can have the Docker installation install Django too. I already have some docker files here but still not yet ready for that stage.
+# Note(s): 
+I'll be updating these instructions later once I get this dockerized in the final release, doing so might even make the installation process even easier since you can have the Docker installation install Django too. I already have some docker files here but still not yet ready for that stage.
 
-AI use:
+# AI use:
 Helped me in changing text format to md format since I wrote the text for the installation stories, mockups etc. on my local machine in a Word document (Word formatting such as bold, bullet points, etc.).
 
-Citation(s):
+# Citation(s):
 https://pydevtools.com/handbook/reference/requirements/ (For the requirements.txt use)
