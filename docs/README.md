@@ -1,4 +1,4 @@
-<u>**User Stories:**</u>
+### User Stories:
 - As a user, I want to be able to securely login and logout and be able to only view the features that are relevant to my assigned role.
 	- Acceptance criteria: All users are met with a login page to enter their credentials, once authenticated, they’d be taken to a specific dashboard based on their assigned role. A requester will see a list of their own requests and a button to start a new request. If a user enters wrong credentials, they’re met with an error and they’re not allowed to login.
 
@@ -26,7 +26,7 @@
 - As an auditor, I want to have the ability to parse the logs in a meaningful way so that I can filter entries by user, date and action.
 	- Acceptance criteria: The auditor view allows the auditor user to use a search box and filters to filter entries by specific items such as date ranges, usernames and actions.
 
-<u>**Misuser stories:**</u>
+### Misuser stories:
 - As a malicious requester, I might want to approve my own submitted requests and bypass the proper review process by an admin.
 	- Mitigation criteria: A user who is not assigned an admin role cannot approve requests and is met with an error if attempted. The attempts are also logged.
 
